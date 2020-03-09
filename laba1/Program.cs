@@ -5,17 +5,7 @@ namespace laba1
     {
         static void Main(string[] args)
         {
-            //question number = (n*k) % 24 + 1,
-            //где порядковый номер вопроса n = 1..5, k - номер по списку
-            double question = 0;
-            int n = 1;
-            double k = 15;
-            for (n = 1; n <= 5; n++) 
-            {
-                question = (n * k) % 24 + 1;
-                Console.WriteLine("N= "+ n);
-                Console.WriteLine("Question= "+ question);
-            }
+            // Квадрат от разницы двух чисел
             Console.WriteLine("\n\n Code Solution\n\n");
             double a;
             double b;
